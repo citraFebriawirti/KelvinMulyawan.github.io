@@ -1,3 +1,15 @@
-body, nav{
-    background-color: #F4F1F0;
+body{
+    background-color: #000000;
+}
+
+h1, h2, h3, p{
+    color: white;
+}
+
+.nav.navbar-nav.navbar-brand {
+    color: #FFFFFF;
+}
+
+.nav.nav-link{
+    color: red;
 }
