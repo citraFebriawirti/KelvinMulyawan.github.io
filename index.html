@@ -27,14 +27,31 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="#about"><i class="fa fa-user"></i></a>
           <a class="nav-link active" href="#contact"><i class="fa fa-address-book"></i></a>
+        </div>
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link active mr-auto" onclick="change()" type="button"><i id="buma" class="fa fa-moon-o"></i></a>
         </div>
       </div>
     </div>
   </nav>
   <!-- end of Navigation Bar -->
   </div>
+
+  <script>
+    function change() {
+      var changer = document.getElementById('buma');
+      
+      if (changer.className == 'fa fa-moon-o') {
+        changer.className = 'fa fa-sun-o';
+      }
+      else{
+        charger.className = 'fa fa-moon-o';
+      }
+    }
+  </script>
 </body>
 
 </html>
